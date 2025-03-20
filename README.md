@@ -1,29 +1,23 @@
-# Vue CRUD Week12
+# vue-crud
 
-This is a project for LABORATORY WEEK12 by 65707527 ณัฐพนธ์ โพธิ์ทอง.
+## Project setup
 
-## Description
+```
+npm install
+```
 
-A Vue.js application with PHP API for managing customers and departments, including CRUD operations.
+### Compiles and hot-reloads for development
 
-## Features
+```
+npm run serve
+```
 
-- Customer Management (Add, Edit, Delete)
-- Department Management (Add, Edit, Delete)
-- Confirm Delete modal
+### Compiles and minifies for production
 
-## Setup
+```
+npm run build
+```
 
-1. Clone the repository: `git clone https://github.com/yourusername/vue-crud-week12.git`
-2. Install dependencies: `npm install`
-3. Run the project: `npm run serve`
-4. Set up the PHP API in XAMPP by placing the `api` folder in `htdocs`
-5. Start XAMPP (Apache and MySQL) and import the database.
+### Customize configuration
 
-## Technologies
-
-- Vue.js 3
-- Bootstrap 5.3.3
-- Axios
-- PHP
-- MySQL
+See [Configuration Reference](https://cli.vuejs.org/config/).
